@@ -120,17 +120,31 @@
 </script>
 <style type="text/css">
 input{
+width:80%;
 font-family: times;
+border: 1px solid #000;
 margin: 5px;
+border-radius: 4px;
 }
 button{
 font-family: times;
 margin: 5px;
+border:1px solid #000;
+border-radius: 4px;
+background:#000;
+color:#fff;
+
 }
 
 p{
 font-family: times;
 margin: 5px;
+}
+font{
+font-family: times;
+font-size:30px;
+
+
 }
 </style>
 
@@ -141,8 +155,10 @@ margin: 5px;
 
 	<center>
 	
-	<font face="times">Bonga Translator</font><br>
-    <input type="text" family="times" id="myText"><br>
+	<font><b>Bonga Translator</b></font><br>
+	<hr>
+	<br>
+    <input type="text" placeholder="Type Here..." family="times" id="myText"><br>
     <button type="button" onclick="strReplace();">Translate</button><br>
     <p id="m"></p>
     </center>
